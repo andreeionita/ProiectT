@@ -5,30 +5,30 @@ session_start();
 ?>
 <html>
 <head>
-<title>Magasin en ligne </title>
+    <title>Magasin en ligne </title>
     <style>
         .price{
             color: #524f4f;
             display: block;
         }
         .topnav {
-              display: flex;
-              flex-grow: 1;
-              flex-basis:0;
-              justify-content: center;
-              align-items: center;
+            display: flex;
+            flex-grow: 1;
+            flex-basis:0;
+            justify-content: center;
+            align-items: center;
         }
         .topnav a {
-          text-decoration: none;
-          
-          padding: 10px 16px;
-          margin:0px 16px;
+            text-decoration: none;
+
+            padding: 10px 16px;
+            margin:0px 16px;
         }
 
         .topnav:hover{
-	       border-bottom: 1px solid #aaa;
-	       transform: scale(1.05);
-           transition: transform 1s;
+            border-bottom: 1px solid #aaa;
+            transform: scale(1.05);
+            transition: transform 1s;
         }
         .product-image:hover{
             transform: scale(1.05);
@@ -42,7 +42,7 @@ session_start();
             display: inline-block;
             justify-content: center;
         }
-        
+
         .f{
             display: block;
             font-weight: bold;
@@ -53,8 +53,8 @@ session_start();
             text-align: center;
             width: 100%;
             border-bottom: 1px solid #EEEEEE;
-            }
-        
+        }
+
         .lang-button{
             background: rgb(214,172,255);
             border-radius: 3px;
@@ -67,20 +67,20 @@ session_start();
             list-style: none;
         }
         .lang-button ul li{
-           
+
             margin: 10px;
             padding: 10px;
         }
         .sub-menu{
             display: none;
         }
-        
+
         .lang-button:hover .sub-menu{
             display: block;
             background: rgb(214,172,255);
-            
+
         }
-        
+
         .lang-button ul li:hover .sub-menu ul{
             display: block;
             margin: 10px;
@@ -94,64 +94,64 @@ session_start();
 </head>
 <body>
 <div class="topnav">
-  <a class="active" href="magazin.php">Produits</a>
-  <a href="Cos.php">Panier</a>
-  <?php 
+    <a class="active" href="magazin.php">Produits</a>
+    <a href="Cos.php">Panier</a>
+    <?php
     if($_SESSION['role']==2):?>
-  <a href="administrator.php">Administrateur</a>
-  <?php endif; ?>
-  <a href="logout.php">Deconnecter</a>
+        <a href="administrator.php">Administrateur</a>
+    <?php endif; ?>
+    <a href="logout.php">Deconnecter</a>
 </div>
-    <div class="lang-button">
-        <ul>
-            <li><a href="#">Language</a></li>
-                <div class="sub-menu">
-                    <ul>
-                    <li><a href="magazin.php">EN</a></li>
-                    <li><a href="magazinFR.php">FR</a></li>
-                    <li><a href="magazinRO.php">RO</a></li>
-                    </ul>
-                </div>    
-        </ul>
-        
-    </div>
+<div class="lang-button">
+    <ul>
+        <li><a href="#">Language</a></li>
+        <div class="sub-menu">
+            <ul>
+                <li><a href="magazin.php">EN</a></li>
+                <li><a href="magazinFR.php">FR</a></li>
+                <li><a href="magazinRO.php">RO</a></li>
+            </ul>
+        </div>
+    </ul>
+
+</div>
 <div>
- <div>
-     <h1 class="f">Produits</h1></div>
+    <div>
+        <h1 class="f">Produits</h1></div>
     <br>
- <?php
-   
- $shoppingCart = new ShoppingCart();
- $query = "SELECT * FROM products";
- $product_array = $shoppingCart->getAllProduct($query);
- if (! empty($product_array)) 
- {
+    <?php
+
+    $shoppingCart = new ShoppingCart();
+    $query = "SELECT * FROM products";
+    $product_array = $shoppingCart->getAllProduct($query);
+    if (! empty($product_array))
+    {
     foreach ($product_array as $key => $value) {
- ?>
+    ?>
     <a href="product.php?id=<?php echo $product_array[$key]["id"];?>">
-     
- <div class="product-image">
- <form method="post" action="Cos.php? action=add&id=<?php echo $product_array[$key]["id"]; ?>">
- 
- <img style="width: 120px"   src="<?php echo $product_array[$key]["img"]; ?> ">
+
+        <div class="product-image">
+            <form method="post" action="Cos.php? action=add&id=<?php echo $product_array[$key]["id"]; ?>">
+
+                <img style="width: 120px"   src="<?php echo $product_array[$key]["img"]; ?> ">
     </a>
- <div >
- <strong><?php echo $product_array[$key]["name"]; ?></strong>
-     
- <span class="price">&dollar;<?=$product_array[$key]["price"]?>
-                <?php if ($product_array[$key]["rrp"] > 0): ?>
+    <div >
+        <strong><?php echo $product_array[$key]["name"]; ?></strong>
+
+        <span class="price">&dollar;<?=$product_array[$key]["price"]?>
+            <?php if ($product_array[$key]["rrp"] > 0): ?>
                 <span class="rrp"> <= &dollar;<?=$product_array[$key]["rrp"]?></span>
-                <?php endif; ?>
+            <?php endif; ?>
 <input type="text" name="quantity" value="1" size="2" />
  <input type="submit" value="Ajouter au panier" />
- </form>
-     </div>
-         
- </div>
- <?php
- }
- }
- ?>
+            </form>
+    </div>
+
+</div>
+<?php
+}
+}
+?>
 </div>
 </body>
 </html>

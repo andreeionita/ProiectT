@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ebdf234-3691-40e6-b245-1a1b7a39746d" name="Changes" comment="" />
+    <list default="true" id="3ebdf234-3691-40e6-b245-1a1b7a39746d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cos.php" beforeDir="false" afterPath="$PROJECT_DIR$/Cos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingCart.php" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingCart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminfunction.php" beforeDir="false" afterPath="$PROJECT_DIR$/adminfunction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albaiulia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autentificare.php" beforeDir="false" afterPath="$PROJECT_DIR$/autentificare.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/belis.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bistraita2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bistrita.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botosani.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucuresti.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucuresti2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cimitir.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluj.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/constanta1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/constanta2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/empty-cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fagaras.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fagaras2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon-add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon-delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/magazin.php" beforeDir="false" afterPath="$PROJECT_DIR$/magazin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/magazinFR.php" beforeDir="false" afterPath="$PROJECT_DIR$/magazinFR.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/magazinRO.php" beforeDir="false" afterPath="$PROJECT_DIR$/magazinRO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oradea.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/placedorder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/placeorder.php" beforeDir="false" afterPath="$PROJECT_DIR$/placeorder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/registration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resita.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylea.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylea.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +45,14 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -19,6 +63,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="21itqnf2aYlX1UKGa1LbB639Vsx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,6 +73,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -39,11 +88,22 @@
       <option name="presentableId" value="Default" />
       <updated>1638435928509</updated>
       <workItem from="1638435929757" duration="661000" />
-      <workItem from="1638801144083" duration="519000" />
+      <workItem from="1638801144083" duration="3064000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
