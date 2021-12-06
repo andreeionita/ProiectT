@@ -4,39 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ebdf234-3691-40e6-b245-1a1b7a39746d" name="Changes" comment="">
+    <list default="true" id="3ebdf234-3691-40e6-b245-1a1b7a39746d" name="Changes" comment="Update la ultima varianta a proiectului">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cos.php" beforeDir="false" afterPath="$PROJECT_DIR$/Cos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingCart.php" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingCart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminfunction.php" beforeDir="false" afterPath="$PROJECT_DIR$/adminfunction.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/albaiulia.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/autentificare.php" beforeDir="false" afterPath="$PROJECT_DIR$/autentificare.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/belis.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bistraita2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bistrita.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/botosani.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bucuresti.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bucuresti2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cimitir.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluj.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/constanta1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/constanta2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/empty-cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fagaras.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fagaras2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon-add.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon-delete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/magazin.php" beforeDir="false" afterPath="$PROJECT_DIR$/magazin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/magazinFR.php" beforeDir="false" afterPath="$PROJECT_DIR$/magazinFR.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/magazinRO.php" beforeDir="false" afterPath="$PROJECT_DIR$/magazinRO.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oradea.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/placedorder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/placeorder.php" beforeDir="false" afterPath="$PROJECT_DIR$/placeorder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/registration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resita.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylea.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylea.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,8 +58,16 @@
       <option name="presentableId" value="Default" />
       <updated>1638435928509</updated>
       <workItem from="1638435929757" duration="661000" />
-      <workItem from="1638801144083" duration="3064000" />
+      <workItem from="1638801144083" duration="3780000" />
     </task>
+    <task id="LOCAL-00001" summary="Update la ultima varianta a proiectului">
+      <created>1638805646041</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638805646041</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,5 +83,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update la ultima varianta a proiectului" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update la ultima varianta a proiectului" />
   </component>
 </project>

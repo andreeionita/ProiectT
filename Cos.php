@@ -168,9 +168,9 @@ if (! empty($_GET["action"])) {
             you could write a small message too. :)
 
             <form action="https://formspree.io/f/mbjwrqzb" method="post">
-                <label for="email">Write to Anca </label><br>
-                <input name="Email" id="email" type="email" placeholder="ancahanes@yahoo.com"><br>
-                <textarea name="Message" placeholder="Address and short message"></textarea><br>
+                <label for="email">Write to your loved ones </label><br>
+                <input name="Email" id="email" type="email" placeholder="lovedone@adress.com"><br>
+                <textarea name="Message" placeholder="Short message"></textarea><br>
                 <button type="submit">Submit</button>
             </form>
         </div>
