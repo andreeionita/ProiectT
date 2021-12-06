@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ebdf234-3691-40e6-b245-1a1b7a39746d" name="Changes" comment="" />
+    <list default="true" id="3ebdf234-3691-40e6-b245-1a1b7a39746d" name="Changes" comment="Rezolvat BUG 2 - 3 - 4">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/magazinFR.php" beforeDir="false" afterPath="$PROJECT_DIR$/magazinFR.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/magazinRO.php" beforeDir="false" afterPath="$PROJECT_DIR$/magazinRO.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +16,14 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -19,6 +34,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="21itqnf2aYlX1UKGa1LbB639Vsx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,6 +44,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -39,11 +59,50 @@
       <option name="presentableId" value="Default" />
       <updated>1638435928509</updated>
       <workItem from="1638435929757" duration="661000" />
-      <workItem from="1638801144083" duration="519000" />
+      <workItem from="1638801144083" duration="7902000" />
     </task>
+    <task id="LOCAL-00001" summary="Update la ultima varianta a proiectului">
+      <created>1638805646041</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638805646041</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Rezolvat BUG1">
+      <created>1638806361720</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638806361720</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Rezolvat BUG 2 - 3 - 4">
+      <created>1638813397335</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638813397335</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update la ultima varianta a proiectului" />
+    <MESSAGE value="Rezolvat BUG1" />
+    <MESSAGE value="Rezolvat BUG 2 - 3 - 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rezolvat BUG 2 - 3 - 4" />
   </component>
 </project>

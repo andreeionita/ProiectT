@@ -5,7 +5,7 @@ require_once "DBController.php";
 ?>
 <html>
 <head>
-<title>Admin CRUD </title>
+<title>Explore Romania</title>
 <link href="style.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
