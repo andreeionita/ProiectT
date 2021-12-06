@@ -40,7 +40,7 @@ if ( empty($_POST["quantity"])) {
 ?>
 <html>
 <head>
-<title>Cos cumparaturi</title>
+<title>Explore Romania</title>
 <link href="style.css" type="text/css" rel="stylesheet" />
     <style>
         .lang-button{
@@ -139,6 +139,9 @@ if (! empty($cartItem)) {
  <td style="text-align: center; border-bottom: #F0F0F0 1px solid;">
  
  </td>
+    <td style="text-align: left; border-bottom: #F0F0F0 1px solid;">
+        <input class="button" type="submit" value="Update">
+    </td>
  </form>
  </tr>
 <?php

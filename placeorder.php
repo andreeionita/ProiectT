@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Order</title>
+    <title>Explore Romania</title>
 </head>
 <body>
 <center><img src="placedorder.png" style="width:300" margin-top:200></center>

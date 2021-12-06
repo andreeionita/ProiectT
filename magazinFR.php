@@ -5,7 +5,7 @@ session_start();
 ?>
 <html>
 <head>
-    <title>Magasin en ligne </title>
+    <title>Explore Romania </title>
     <style>
         .price{
             color: #524f4f;

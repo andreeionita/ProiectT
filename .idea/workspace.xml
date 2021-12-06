@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ebdf234-3691-40e6-b245-1a1b7a39746d" name="Changes" comment="Update la ultima varianta a proiectului">
+    <list default="true" id="3ebdf234-3691-40e6-b245-1a1b7a39746d" name="Changes" comment="Rezolvat BUG1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cos.php" beforeDir="false" afterPath="$PROJECT_DIR$/Cos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosFR.php" beforeDir="false" afterPath="$PROJECT_DIR$/CosFR.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosRO.php" beforeDir="false" afterPath="$PROJECT_DIR$/CosRO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administrator.php" beforeDir="false" afterPath="$PROJECT_DIR$/administrator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/magazin.php" beforeDir="false" afterPath="$PROJECT_DIR$/magazin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/magazinFR.php" beforeDir="false" afterPath="$PROJECT_DIR$/magazinFR.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/magazinRO.php" beforeDir="false" afterPath="$PROJECT_DIR$/magazinRO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/placeorder.php" beforeDir="false" afterPath="$PROJECT_DIR$/placeorder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1638435928509</updated>
       <workItem from="1638435929757" duration="661000" />
-      <workItem from="1638801144083" duration="3780000" />
+      <workItem from="1638801144083" duration="7076000" />
     </task>
     <task id="LOCAL-00001" summary="Update la ultima varianta a proiectului">
       <created>1638805646041</created>
@@ -67,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638805646041</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Rezolvat BUG1">
+      <created>1638806361720</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638806361720</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +102,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update la ultima varianta a proiectului" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update la ultima varianta a proiectului" />
+    <MESSAGE value="Rezolvat BUG1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rezolvat BUG1" />
   </component>
 </project>
