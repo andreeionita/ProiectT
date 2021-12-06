@@ -1,0 +1,263 @@
+ .titlu{
+        font-family: Fjalla One;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 80px;
+        letter-spacing: 1.5px;
+        margin: 72px 0 16px;
+        text-shadow: 6px 2px rgb(180, 111, 111);
+        }
+       .lang-button{
+           
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        .lang-button ul{
+            list-style: none;
+        }
+        .lang-button ul li{
+           
+            margin: 10px;
+            padding: 10px;
+        }
+        .sub-menu{
+            display: none;
+        }
+        
+        .lang-button:hover .sub-menu{
+            display: block;
+            
+        }
+        
+        .lang-button ul li:hover .sub-menu ul{
+            display: block;
+            margin: 10px;
+        }
+        .lang-button ul li:hover .sub-menu ul li{
+            width: 150px;
+            padding: 10px;
+            background: transparent;
+        }
+        body.start {
+            font-family: fangsong;
+            font-size:xx-large;
+            color:salmon;
+            font-weight:bold;
+            background-image: url('b.jpg');
+            background-repeat: no-repeat;
+            background-size: 1710px 950px;
+        }
+        input.user{
+            border-radius: 20px;
+            border-color:salmon;
+            font-family:Fjalla One;
+            font-style: oblique;
+            font-size: 30px;
+            background-color:white;
+            color:salmon;
+            display:block;
+        }
+        .login{
+            margin-left: 100px;
+        }
+        a{
+            color:salmon;
+        }
+        input.log{
+            border-radius: 20px;
+            border-color:salmon;
+            font-family:Fjalla One;
+            font-style: oblique;
+            font-size: 30px;
+            background-color:white;
+            color:salmon;
+            margin-left: 0px;
+        }
+        .price{
+            color: #524f4f;
+            display: block;
+        }
+        .topnav {
+              display: flex;
+              flex-grow: 1;
+              flex-basis:0;
+              justify-content: center;
+              align-items: center;
+        }
+        .topnav a {
+          text-decoration: none;
+          padding: 10px 16px;
+          margin:0px 16px;
+        }
+        .topnav:hover{
+	       border-bottom: 1px solid #aaa;
+	       transform: scale(1.05);
+           transition: transform 1s;
+        }
+        .prod:hover{
+            transform: scale(1.05);
+            transition: transform 1s;
+        }
+        img.prod{
+        float: left;
+        width: 800px;
+        margin-right: 25px;
+        display: block;
+        border-radius:50%;
+        }
+        input.produse{
+        border-radius: 20px;
+        border-color:white;
+        font-family:Fjalla One;
+        font-style: oblique;
+        font-size: 30px;
+        background-color:salmon;
+        margin:10px 500px 0px 690px;
+        color:white;
+    }
+     .numeprodus{
+        font-family: Fjalla One;
+        text-align: center;
+        text-transform: uppercase;
+        font-size:30px;
+        letter-spacing: 1.5px;
+        text-shadow: 6px 2px white;
+        margin-top:20px;
+    }
+        .descriere{
+            font-size:20px;
+        }
+        .product-price{
+        font-size:30px;
+        margin:10px 60px 0px 990px;
+        border-style: double;
+        border-radius: 30px;
+        border-color: salmon;
+        font-family: Fjalla One;
+        font-style: oblique;
+        background-color:white;
+        text-align:center;
+        }
+        
+        .f{
+            display: block;
+            font-weight: bold;
+            font-family: sans-serif;
+            margin:0;
+            padding: 40px 0;
+            font-size: 24px;
+            text-align: center;
+            width: 100%;
+            }
+        
+        .lang-button ul{
+            list-style: none;
+          
+        }
+        .lang-button ul li{
+           
+            margin: 10px;
+            padding: 10px; 
+        
+        }
+        .sub-menu{
+            display: none;
+        }
+        
+        .lang-button:hover .sub-menu{
+            display: block;
+        
+            
+        }
+        .lang-button ul li:hover .sub-menu ul{
+            display: block;
+            margin: 10px;
+        }
+        .lang-button ul li:hover .sub-menu ul li{
+            width: 150px;
+            padding: 10px;
+            background: transparent;
+        }
+          #l{
+              color:black;
+              margin-left: 100px;
+          }
+          a{
+            color:black;
+          }
+          .logo{
+              width:90px;
+              float:right;
+          }
+          .register{
+              margin-left: 100px;
+          }
+          img.cart{
+            width:175px;
+            height:175px;
+            padding-right: 270px;
+            border-radius:15px;
+           }
+           
+           img.logout{
+            width:175px;
+            height:175px;
+            border-radius:15px;
+           }
+           
+           body{
+             margin: 0;
+             padding: 0;
+             background: url(wp.jpg);
+             background-size: 100%;
+             height: 600px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+           }
+           
+           .shopping-cart{
+            width: 70%;
+            height: 85%;
+            background-color: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0px 25px 40px #1687d933;
+           }
+           
+           #shopping-cart table {
+               width: 100%;
+               background-color: #F0F0F0;
+                   border-radius: 30px;
+           }
+           
+           #shopping-cart table td {
+               background-color: #FFFFFF;
+           }
+           
+           .txt-heading {
+               color: #f2a053;
+               margin-bottom: 10px;
+               text-align: left;
+                   border-bottom: #f2a053 5px solid;
+                   font-size: 30px;
+           }
+           
+           .txt-heading-label {
+               display: inline-block;
+               background: #f2a053;
+               padding: 10px 10px 6px 10px;
+               color: black;
+           }
+           
+           
+           #btnEmpty {
+               background-color: #ffffff;
+               border: #FFF 1px solid;
+               padding: 1px 10px;
+               color: #ff0000;
+               width:50px;
+                   height: 40px;
+               float: right;
+               border-radius: 4px;
+           }
