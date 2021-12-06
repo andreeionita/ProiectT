@@ -139,9 +139,9 @@ session_start();
         <strong><?php echo $product_array[$key]["name"]; ?></strong>
 
         <span class="price">&dollar;<?=$product_array[$key]["price"]?>
-            <?php if ($product_array[$key]["rrp"] > 0): ?>
-                <span class="rrp"> <= &dollar;<?=$product_array[$key]["rrp"]?></span>
-            <?php endif; ?>
+<!--            --><?php //if ($product_array[$key]["rrp"] > 0): ?>
+<!--                <span class="rrp"> <= &dollar;--><?//=$product_array[$key]["rrp"]?><!--</span>-->
+<!--            --><?php //endif; ?>
 <input type="text" name="quantity" value="1" size="2" />
  <input type="submit" value="Adauga in cos" />
             </form>
