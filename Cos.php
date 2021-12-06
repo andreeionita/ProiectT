@@ -19,17 +19,17 @@ if ( empty($_POST["quantity"])) {
  $newQuantity = $cartResult[0]["quantity"] + $_POST["quantity"];
  $shoppingCart->updateCartQuantity($newQuantity, $cartResult[0]["id"]);
  } else {
- // Adaugare in tabelul cos
+ 
  $shoppingCart->addToCart($productResult[0]["id"], $_POST["quantity"], $member_id);
  }
  
  break;
  case "remove":
- // Sterg o sg inregistrare
+
  $shoppingCart->deleteCartItem($_GET["id"]);
  break;
  case "empty":
- // Sterg cosul
+ 
  $shoppingCart->emptyCart($member_id);
  break;
  case "update":
