@@ -172,7 +172,7 @@ if (! empty($_GET["action"])) {
 
             <form action="https://formspree.io/f/mbjwrqzb" method="post">
                 <label for="email">Write to your loved ones </label><br>
-                <input name="Email" id="email" type="email" placeholder="lovedone@adress.com"><br>
+                <input name="Email" id="email" type="hidden" value="lovedone@adress.com"><br>
                 <textarea name="Message" placeholder="Short message"></textarea><br>
                 <button type="submit">Submit</button>
             </form>
