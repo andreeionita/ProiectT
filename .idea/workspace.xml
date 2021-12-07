@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ebdf234-3691-40e6-b245-1a1b7a39746d" name="Changes" comment="Adaugarea imaginilor" />
+    <list default="true" id="3ebdf234-3691-40e6-b245-1a1b7a39746d" name="Changes" comment="Adaugarea imaginilor">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cos.php" beforeDir="false" afterPath="$PROJECT_DIR$/Cos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosFR.php" beforeDir="false" afterPath="$PROJECT_DIR$/CosFR.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosRO.php" beforeDir="false" afterPath="$PROJECT_DIR$/CosRO.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +41,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -55,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1638435928509</updated>
       <workItem from="1638435929757" duration="661000" />
-      <workItem from="1638801144083" duration="9728000" />
+      <workItem from="1638801144083" duration="12992000" />
     </task>
     <task id="LOCAL-00001" summary="Update la ultima varianta a proiectului">
       <created>1638805646041</created>
@@ -92,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638885828473</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adaugarea imaginilor">
+      <created>1638885960506</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638885960506</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,7 +116,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
