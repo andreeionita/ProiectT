@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ebdf234-3691-40e6-b245-1a1b7a39746d" name="Changes" comment="Proiectul la acest punct este functional si terminat">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosFR.php" beforeDir="false" afterPath="$PROJECT_DIR$/CosFR.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CosRO.php" beforeDir="false" afterPath="$PROJECT_DIR$/CosRO.php" afterDir="false" />
-    </list>
+    <list default="true" id="3ebdf234-3691-40e6-b245-1a1b7a39746d" name="Changes" comment="Adaugarea imaginilor" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1638435928509</updated>
       <workItem from="1638435929757" duration="661000" />
-      <workItem from="1638801144083" duration="9510000" />
+      <workItem from="1638801144083" duration="9728000" />
     </task>
     <task id="LOCAL-00001" summary="Update la ultima varianta a proiectului">
       <created>1638805646041</created>
@@ -89,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638814093583</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adaugarea imaginilor">
+      <created>1638885828473</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638885828473</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +114,7 @@
     <MESSAGE value="Rezolvat BUG1" />
     <MESSAGE value="Rezolvat BUG 2 - 3 - 4" />
     <MESSAGE value="Proiectul la acest punct este functional si terminat" />
-    <option name="LAST_COMMIT_MESSAGE" value="Proiectul la acest punct este functional si terminat" />
+    <MESSAGE value="Adaugarea imaginilor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adaugarea imaginilor" />
   </component>
 </project>
