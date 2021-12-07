@@ -169,9 +169,9 @@ if (! empty($cartItem)) {
          Scrie adresa persoanei dragi care va primi aceasta vedere. De asemenea, poti adauga un scurt mesaj pentru ea. :)
      
      <form action="https://formspree.io/f/mbjwrqzb" method="post">
-  <label for="email">Scrie-i Ancai </label><br>
-  <input name="Email" id="email" type="email" placeholder="ancahanes@yahoo.com"><br>
-  <textarea name="Message" placeholder="Adresa si mesaj"></textarea><br>
+  <label for="email">Scrie-i persoanei iubite </label><br>
+  <input name="Email" id="email" type="email" placeholder="Adresa"><br>
+  <textarea name="Message" placeholder="Mesaj"></textarea><br>
   <button type="submit">Submit</button>
 </form>
      </div>

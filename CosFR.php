@@ -169,9 +169,9 @@ if (! empty($cartItem)) {
          Écrivez l'adresse de ta chère personne qui recevra cette vue. Vous pouvez également y ajouter un court message. :)
      
      <form action="https://formspree.io/f/mbjwrqzb" method="post">
-  <label for="email">Ecrivez pour Anca </label><br>
-  <input name="Email" id="email" type="email" placeholder="ancahanes@yahoo.com"><br>
-  <textarea name="Message" placeholder="L'adresse et un message"></textarea><br>
+  <label for="email">Ecrivez pour vos proches </label><br>
+  <input name="Email" id="email" type="email" placeholder="Adresse"><br>
+  <textarea name="Message" placeholder="Message"></textarea><br>
   <button type="submit">Submit</button>
 </form>
      </div>
