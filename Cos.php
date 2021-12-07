@@ -128,9 +128,9 @@ if (! empty($_GET["action"])) {
             ?>
             <tr>
                 <form method="post" action="cos.php?action=update&id=<?php echo $item["cart_id"]; ?>">
-                    <td style="text-align: left; border-bottom: #F0F0F0 1px solid;"><strong><?php echo $item["name"]; ?></strong></td>
+                    <td style="text-align: left; border-bottom: #F0F0F0 1px solid;"><strong><?php echo $item["name"] ; echo " postcard" ; ?></strong></td>
                     <td style="text-align: left; border-bottom: #F0F0F0 1px solid;"><?php echo $item["id"];?></td>
-                    <td style="text-align: right; border-bottom: #F0F0F0 1px solid;"><input type="number" name="quantity" value=1 min=1></td>
+                    <td style="text-align: right; border-bottom: #F0F0F0 1px solid;"><input type="number" name="quantity" value=<?php echo $item["quantity"] ;?> min=1></td>
                     <td style="text-align: right; border-bottom: #F0F0F0 1px solid;"><?php echo "$".$item["rrp"]; ?></td>
                     <td style="text-align: center; border-bottom: #F0F0F0 1px solid;">
                         <a href="cos.php?action=remove&id=<?php echo $item["cart_id"]; ?>" class="btnRemoveAction">

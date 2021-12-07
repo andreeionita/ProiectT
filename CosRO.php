@@ -127,9 +127,9 @@ if (! empty($cartItem)) {
 ?>  
 <tr>
 <form method="post" action="cos.php?action=update&id=<?php echo $item["cart_id"]; ?>">
- <td style="text-align: left; border-bottom: #F0F0F0 1px solid;"><strong><?php echo $item["name"]; ?></strong></td>
+ <td style="text-align: left; border-bottom: #F0F0F0 1px solid;"><strong><?php echo "Carte postala  " ; echo $item["name"]; ?></strong></td>
  <td style="text-align: left; border-bottom: #F0F0F0 1px solid;"><?php echo $item["id"];?></td>
- <td style="text-align: right; border-bottom: #F0F0F0 1px solid;"><input type="number" name="quantity" value=1 min=1 max=1></td>
+ <td style="text-align: right; border-bottom: #F0F0F0 1px solid;"><input type="number" name="quantity" value=<?php echo $item["quantity"] ;?> min=1 max=1></td>
  <td style="text-align: right; border-bottom: #F0F0F0 1px solid;"><?php echo "$".$item["rrp"]; ?></td>
  <td style="text-align: center; border-bottom: #F0F0F0 1px solid;">
  <a href="cos.php?action=remove&id=<?php echo $item["cart_id"]; ?>" class="btnRemoveAction">
@@ -169,9 +169,9 @@ if (! empty($cartItem)) {
          Scrie adresa persoanei dragi care va primi aceasta vedere. De asemenea, poti adauga un scurt mesaj pentru ea. :)
      
      <form action="https://formspree.io/f/mbjwrqzb" method="post">
-  <label for="email">Scrie-i Ancai </label><br>
-  <input name="Email" id="email" type="email" placeholder="ancahanes@yahoo.com"><br>
-  <textarea name="Message" placeholder="Adresa si mesaj"></textarea><br>
+  <label for="email">Scrie-i persoanei iubite </label><br>
+  <input name="Email" id="email" type="email" placeholder="Adresa"><br>
+  <textarea name="Message" placeholder="Mesaj"></textarea><br>
   <button type="submit">Submit</button>
 </form>
      </div>

@@ -127,9 +127,9 @@ if (! empty($cartItem)) {
 ?>  
 <tr>
 <form method="post" action="cos.php?action=update&id=<?php echo $item["cart_id"]; ?>">
- <td style="text-align: left; border-bottom: #F0F0F0 1px solid;"><strong><?php echo $item["name"]; ?></strong></td>
+ <td style="text-align: left; border-bottom: #F0F0F0 1px solid;"><strong><?php echo "Carte postale de " ; echo $item["name"]; ?></strong></td>
  <td style="text-align: left; border-bottom: #F0F0F0 1px solid;"><?php echo $item["id"];?></td>
- <td style="text-align: right; border-bottom: #F0F0F0 1px solid;"><input type="number" name="quantity" value=1 min=1 max=1></td>
+ <td style="text-align: right; border-bottom: #F0F0F0 1px solid;"><input type="number" name="quantity" value=<?php  echo $item["quantity"] ;?> min=1 max=1></td>
  <td style="text-align: right; border-bottom: #F0F0F0 1px solid;"><?php echo "$".$item["rrp"]; ?></td>
  <td style="text-align: center; border-bottom: #F0F0F0 1px solid;">
  <a href="cos.php?action=remove&id=<?php echo $item["cart_id"]; ?>" class="btnRemoveAction">
@@ -169,9 +169,9 @@ if (! empty($cartItem)) {
          Écrivez l'adresse de ta chère personne qui recevra cette vue. Vous pouvez également y ajouter un court message. :)
      
      <form action="https://formspree.io/f/mbjwrqzb" method="post">
-  <label for="email">Ecrivez pour Anca </label><br>
-  <input name="Email" id="email" type="email" placeholder="ancahanes@yahoo.com"><br>
-  <textarea name="Message" placeholder="L'adresse et un message"></textarea><br>
+  <label for="email">Ecrivez pour vos proches </label ><br>
+  <input name="Email" id="email" type="email" placeholder="Adresse"><br>
+  <textarea name="Message" placeholder="Message"></textarea><br>
   <button type="submit">Submit</button>
 </form>
      </div>
