@@ -86,7 +86,10 @@ if ( empty($_POST["quantity"])) {
 <div class="topnav">
   <a href="magazin.php">Produse</a>
   <a class="active" href="Cos.php">Cos de cumparaturi</a>
-  <a href="administrator.php">Administrator</a>
+    <?php
+    if($_SESSION['role']==2):?>
+        <a href="administrator.php">Administrator</a>
+    <?php endif; ?>
   <a href="logout.php">Deconectare</a>
 </div>
      <div class="lang-button">
@@ -175,6 +178,7 @@ if (! empty($cartItem)) {
   <button type="submit">Submit</button>
 </form>
      </div>
+</div>
 </div>
 </body>
 </html>

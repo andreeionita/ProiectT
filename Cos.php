@@ -87,7 +87,10 @@ if (! empty($_GET["action"])) {
 <div class="topnav">
     <a href="magazin.php">Products</a>
     <a class="active" href="Cos.php">Shopping Cart</a>
-    <a href="administrator.php">Administrator</a>
+    <?php
+    if($_SESSION['role']==2):?>
+        <a href="administrator.php">Administrator</a>
+    <?php endif; ?>
     <a href="logout.php">Log out</a>
 </div>
 <div class="lang-button">

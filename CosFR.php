@@ -86,7 +86,10 @@ if ( empty($_POST["quantity"])) {
 <div class="topnav">
   <a href="magazin.php">Produits</a>
   <a class="active" href="Cos.php">Panier</a>
-  <a href="administrator.php">Administrateur</a>
+    <?php
+    if($_SESSION['role']==2):?>
+        <a href="administrator.php">Administrator</a>
+    <?php endif; ?>
   <a href="logout.php">Déconnecter</a>
 </div>
      <div class="lang-button">
